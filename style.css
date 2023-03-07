@@ -8,13 +8,15 @@ body {
   margin: 0 auto;
   background-color: white;
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 .main-code {
   padding-top: 1%;
   display: inline-block;
   position: absolute;
-  height: 55vh;
   width: 35vh;
   top: 50%;
   left: 50%;
