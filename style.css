@@ -14,16 +14,16 @@ body {
 }
 
 .main-code {
-  padding-top: 1%;
-  display: inline-block;
-  position: absolute;
-  width: 35vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 2%;
+  width: 37vh;
   background-color: hsl(0, 0%, 100%);
-  text-align: center;
   border-radius: 15px;
+  /* display: inline-block; 
+   position: absolute; 
+   top: 50%;                  Part of the initial Css
+  left: 50%;  */
+  /* transform: translate(-50%, -50%);  */
+   /*text-align: center; */
 }
 
 .qr-code{
@@ -37,8 +37,8 @@ body {
 
 .image-qr {
   border-radius: 6px;
-  width: 90%;
-  height: 90%;
+  width: 93%;
+  height: 93%;
 }
 
 
