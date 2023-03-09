@@ -8,17 +8,20 @@ body {
   margin: 0 auto;
   background-color: white;
   background-color: hsl(212, 45%, 89%);
+  /* Css from Front-end mentor*/
   min-height: 100vh;
   display: grid;
   place-content: center;
   place-items: center;
+  justify-items: center;
 }
 
 .main-code {
   padding-top: 2%;
-  width: 37vh;
+  width: 35vh;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
+  padding-bottom: 5% ;
   /* display: inline-block; 
    position: absolute; 
    top: 50%;                  Part of the initial Css
